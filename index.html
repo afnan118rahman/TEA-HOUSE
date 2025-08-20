@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <link rel="stylesheet" href="styles/style.css">
     
     <!-- tailwind cdn -->
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-     <!-- fontawesome cdn    for icon-->
+     <!-- font awesome cdn  for icon-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" 
-      
+
 </head>
-<body>
+<body class="manrope_font">
     <!-- banner section -->
      <div class="parent-div  container max-w-[1250px] mx-auto min-h-52 flex flex-col md:flex-row justify-between items-center my-[141px]">
         <div class="left-div ">
@@ -88,7 +89,7 @@
 
        <section class="max-w-[1250px] mx-auto  flex flex-col md:flex-row gap-4 mt-20 p-3  rounded-3xl h-[1000px] md:h-[600px] bg-gradient-to-r from-[#FF8938] to-[#920000]">
         <div class="h-full md:w-1/2 pl-20 flex justify-center items-center">
-            <div>
+            <div class="bg-[url('tea-house-resources/images/bg_cup.png')]">
                 <h1 class="text-4xl font-extrabold text-amber-50">Meet Our Super <br> Clients</h1>
             <p class="mt-8 mb-5 text-amber-50">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             <button class="w-[139px] h-[56px] bg-white text-2xl font-bold rounded-xl text-[#FF8938]">Show All</button>
@@ -127,20 +128,20 @@
        <!-- footer   -->
         
 <footer class="bg-red-200">
-    <section class=" max-w-[1250px] mx-auto  mt-[100px]  h-[500px]">
+    <section class=" max-w-[1250px] mx-auto  mt-[100px]  md:h-[500px] text-center md:text-right">
         <div class="">
-            <div class=" flex justify-between  items-center p-16">
+            <div class=" flex flex-col md:flex-row justify-between  items-center md:p-16 ">
                 <img src="tea-house-resources/images/cup.png" alt="">
                 <div class="flex items-center gap-10">
                     <p>Ready to get strated?</p>
-                <button class="bg-orange-900">Get Started</button>
+                <button class="text-xl text-white  w-40 h-16 rounded-lg bg-gradient-to-r from-[#ff8938] to-[#ff0000]">Get Started</button>
                 </div>
             </div>
         </div>
 
-        <div class=" flex justify-between ">
+        <div class=" flex flex-col md:flex-row justify-between ">
             <div>
-                <p class=" mt-3 font-bold">Quick Links</p>
+                <p class="mt-3 font-bold">Quick Links</p>
                 <p class="mt-2">Home</p>
                 <p class="mt-2">About Us</p>
                 <p class="mt-2">Insurance</p>
@@ -161,7 +162,9 @@
             <div>
                 <p class="font-extrabold text-xl">Subscribe to our <br>newsletter</p>
                 <input type="text" placeholder="Email address" class="border-b-1 outline-none pb-4 mt-10 mb-5">
-                <button class="border-2 h-[30px] w-[25px] bg-orange-600 rounded-2xl font-extrabold">></button>
+            </div>
+            </div>
+                <button class="border-2 h-[30px] w-[25px] bg-gradient-to-r from-[#ff8938] to-[#ff0000]  rounded-2xl font-extrabold">></button>
                 <div>
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-solid fa-dove"></i>
